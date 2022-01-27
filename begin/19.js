@@ -1,0 +1,11 @@
+const x1 = 5;
+const x2 = 8;
+const y1 = 5;
+const y2 = 8;
+const data1 = x1 + x2;
+console.log(data1);
+const data2 = y1 + y2;
+console.log(data2);
+const P = 2 * (data1 + data2);
+const S = data1 * data2;
+console.log(P, S);
