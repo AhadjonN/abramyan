@@ -1,0 +1,10 @@
+const V1 = 14;
+const V2 = 12;
+const S = 15;
+const T = 6;
+const speed = V1 + V2;
+console.log(speed);
+const path = speed * T;
+console.log(path);
+const D = S - path;
+console.log(D);
