@@ -1,0 +1,12 @@
+const A1 = 32;
+const B1 = 51;
+const C1 = 10;
+const A2 = 11;
+const B2 = 88;
+const C2 = 34;
+const D = A1 * B2 - A2 * B1;
+console.log(D);
+const x = (C1 * B2 - C2 * B1) / D;
+console.log(x);
+const y = (A1 * C2 - A2 * C1) / D;
+console.log(y);
