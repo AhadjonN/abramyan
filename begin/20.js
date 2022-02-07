@@ -6,5 +6,5 @@ const data1 = x1 - x2;
 console.log(data1);
 const data2 = y1 - y2;
 console.log(data2);
-const d = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
+const d = Math.sqrt(Math.pow((x2 - x1), 2) + (Math.pow(y2 - y1), 2));
 console.log(d);
