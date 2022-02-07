@@ -1,3 +1,4 @@
-const A = 40;
-const a = A % 10;
-const b = (A - a) / 10;
+const A = 24;
+const a = (2 + 4);
+const a1 = (2 * 4);
+console.log(a, a1);
