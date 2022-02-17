@@ -1,15 +1,14 @@
-const a = parseInt(prompt());
-const b = parseInt(prompt());
-const c = parseInt(prompt());
+let a = parseInt(prompt());
+let b = parseInt(prompt());
+let c = parseInt(prompt());
 
-if (a < b && a < c) {
-    console.log(b);
-    console.log(c);
-} else if (b < a && b < c) {
-    console.log(a);
-    console.log(c);
+if ((a > b && b > c) || (a < b && a > c)) {
+    console.log(b + a);
+
 }
-else if (c < a && c < b) {
-    console.log(a);
-    console.log(b);
+else if ((b < a && a < c) || (b < c && a > c)) {
+    console.log(a + c);
+}
+else {
+    console.log(c + b);
 }
