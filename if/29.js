@@ -1,12 +1,12 @@
 const g = parseInt(prompt());
 
 if (g === 0) {
-    console.log("Нулевое число.");
+    console.log("nullevoe ");
 }
 else if (g > 0) {
-    console.log("Положительное и ");
+    console.log("polojitelnoe ");
 } if (g % 2 === 0) {
-    console.log("Четное");
+    console.log("4etnoe");
 } else {
-    console.log("Нечетное")
+    console.log("ne4etnoe")
 }
