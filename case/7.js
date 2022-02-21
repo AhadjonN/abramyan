@@ -3,7 +3,7 @@ const A = parseInt(prompt("Ведите номер chisla"));
 switch (n) {
     case 1:
         console.log("a v kelogrammax")
-        console.log(A / 10 + "v  kiloggrammax");
+        console.log(A * 1 + "v  kiloggrammax");
         break;
     case 2:
         console.log("a v miligrammax ")
