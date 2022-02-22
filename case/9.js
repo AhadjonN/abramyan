@@ -5,8 +5,8 @@ switch (M) {
     case 1:
         D = 31;
     case 2:
-        D = 28;
-        console.log("imsol", D + 1);
+        D = 29;
+        console.log("soli pesh", D - 1);
         break
     case 3:
         D = 31;
@@ -33,9 +33,11 @@ switch (M) {
         break
     case 11:
         D = 31
+        break
     case 12:
         D = 30;
+        break
     default:
         M = "net takoy dadi "
 }
-console.log("soli pesh",D); 11
+console.log('hamin sol', D); 
