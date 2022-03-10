@@ -1,7 +1,8 @@
-let A = parseInt(prompt("a="));
-console.log("a=", A)
-B = 1;
-while (A > B) {
-    B++
-    console.log(B - 1)
+const A = parseInt(prompt());
+const B = parseInt(prompt());
+let C = A;
+while (C > B) {
+    C = C - B;
+
 }
+console.log(C);
